@@ -1,8 +1,13 @@
 set nu
 set cindent
 set softtabstop=4
-set ts=4
-set noexpandtab
+set tabstop=4
+set shiftwidth=4
+set fenc=utf-8
+set enc=utf-8
+set expandtab
+set cursorline
+
 syntax on
 
 if has("autocmd")
