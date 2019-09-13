@@ -14,5 +14,6 @@ if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
 
-au BufNewFile,BufRead *.cu set ft=cuda
+au BufNewFile,BufRead *.cu  set ft=cuda
 au BufNewFile,BufRead *.cuh set ft=cuda
+au BufNewFile,BufRead *.txx set ft=cpp
